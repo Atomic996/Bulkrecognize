@@ -212,7 +212,7 @@ const App: React.FC = () => {
             <div className="space-y-6">
               <input 
                 type="text" 
-                placeholder="@handle" 
+                placeholder="@twitter_handle" 
                 autoFocus
                 className="w-full bg-white/5 border border-white/10 rounded-2xl sm:rounded-3xl p-6 sm:p-8 text-xl sm:text-2xl font-black focus:border-[#00f2ff] outline-none transition-all placeholder:text-white/5 uppercase"
                 onKeyDown={(e) => e.key === 'Enter' && performLogin((e.target as HTMLInputElement).value)}

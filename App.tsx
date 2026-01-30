@@ -356,7 +356,7 @@ const App: React.FC = () => {
                 <div className="absolute inset-0 bg-[#00f2ff]/5 blur-[80px]"></div>
                 <StarLogo size="80" className="text-white/10 mx-auto mb-8 sm:mb-12 relative z-10" glow={false} />
                 <h3 className="text-5xl sm:text-7xl font-black italic mb-8 sm:mb-10 uppercase tracking-tighter relative z-10 leading-none px-4">Shard<br/>Depleted</h3>
-                <button onClick={() => setView('DASHBOARD')} className="px-12 py-5 sm:px-16 sm:py-8 bg-white text-black font-black uppercase text-[11px] sm:text-[12px] rounded-2xl sm:rounded-3xl tracking-[0.4em] hover:bg-[#00f2ff] transition-all relative z-10">Back to Base</button>
+                <button onClick={() => setView('DASHBOARD')} className="px-12 py-5 sm:px-16 sm:py-8 bg-white text-black font-black uppercase text-[11px] sm:text-[12px] rounded-2xl sm:rounded-3xl tracking-[0.4em] hover:bg-[#00f2ff] transition-all relative z-10">Back to Dashboard</button>
               </div>
             )}
           </div>

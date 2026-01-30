@@ -281,7 +281,7 @@ const App: React.FC = () => {
               {/* Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-12 sm:mt-16 relative z-10">
                 <button onClick={() => setView('VOTING')} className="w-full sm:w-auto group relative overflow-hidden px-10 py-5 sm:py-7 bg-[#00f2ff] text-black font-black uppercase tracking-[0.4em] text-[11px] sm:text-[12px] rounded-[1.5rem] sm:rounded-[2rem] hover:scale-105 active:scale-95 transition-all shadow-lg">
-                  <span className="relative z-10">Verify Nodes</span>
+                  <span className="relative z-10">recognize</span>
                 </button>
                 <button onClick={createPassport} disabled={isBusy} className="w-full sm:w-auto px-10 py-5 sm:py-7 bg-white/5 text-white font-black uppercase tracking-[0.4em] text-[11px] sm:text-[12px] rounded-[1.5rem] sm:rounded-[2rem] border border-white/10 hover:bg-white/10 transition-all active:scale-95 backdrop-blur-xl">
                   {isBusy ? 'Mapping...' : 'Social Passport'}

@@ -197,7 +197,7 @@ const App: React.FC = () => {
               <div className="absolute inset-0 bg-[#00f2ff] blur-[100px] opacity-10 animate-pulse"></div>
               <StarLogo size="120" className="text-[#00f2ff] mb-4 animate-status relative z-10" />
             </div>
-            <h1 className="text-6xl md:text-[11rem] font-black italic tracking-tighter leading-none uppercase">Social<br/><span className="text-[#00f2ff] drop-shadow-[0_0_30px_rgba(0,242,255,0.4)]">Graph.</span></h1>
+            <h1 className="text-6xl md:text-[11rem] font-black italic tracking-tighter leading-none uppercase">Bulk<br/><span className="text-[#00f2ff] drop-shadow-[0_0_30px_rgba(0,242,255,0.4)]">Graph.</span></h1>
             <p className="max-w-xs sm:max-w-md text-white/30 text-[10px] font-black uppercase tracking-[0.5em] leading-relaxed">Map the decentralized trust nodes of high-performance communities.</p>
             <button onClick={() => setView('LOGIN')} className="w-full sm:w-auto px-16 py-6 bg-white text-black font-black uppercase tracking-[0.4em] text-[11px] hover:bg-[#00f2ff] transition-all hover:scale-105 active:scale-95 shadow-[0_20px_40px_-10px_rgba(255,255,255,0.2)] rounded-2xl">Establish Node</button>
           </div>

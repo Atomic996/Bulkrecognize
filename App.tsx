@@ -479,7 +479,7 @@ const App: React.FC = () => {
                     <div className="px-4 py-1.5 sm:px-6 sm:py-2 bg-[#00f2ff]/10 border border-[#00f2ff]/30 rounded-full backdrop-blur-xl">
                        <span className="text-[10px] sm:text-[12px] font-black text-[#00f2ff] uppercase tracking-widest">Node_Verified</span>
                     </div>
-                    <span className="text-[8px] font-mono text-white/10 uppercase tracking-tighter">ID: {getDeviceID().replace('node-','')}</span>
+                    <span className="text-[14px] font-mono text-white/10 uppercase tracking-tighter">ID: {getDeviceID().replace('node-','')}</span>
                  </div>
               </div>
 

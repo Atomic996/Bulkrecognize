@@ -471,7 +471,7 @@ const App: React.FC = () => {
                     </div>
                     <div>
                        <h6 className="text-[10px] sm:text-[12px] font-black text-white/30 uppercase tracking-[0.4em] leading-none mb-2">Protocol_Identity</h6>
-                       <span className="text-xl sm:text-3xl font-black italic uppercase tracking-tighter block leading-none">Social Passport</span>
+                       <span className="text-xl sm:text-3xl font-black italic uppercase tracking-tighter block leading-none">Bulk card</span>
                     </div>
                  </div>
                  

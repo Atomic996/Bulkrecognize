@@ -148,7 +148,7 @@ const CandidateCard: React.FC<CandidateCardProps> = ({ candidate, onVote, disabl
             disabled={disabled}
             className="group/btn py-8 rounded-3xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all active:scale-95 backdrop-blur-xl"
           >
-            <span className="text-[11px] font-black text-white/40 uppercase tracking-[0.5em]">Skip Node</span>
+            <span className="text-[11px] font-black text-white/40 uppercase tracking-[0.5em]">Skip</span>
           </button>
 
           <button

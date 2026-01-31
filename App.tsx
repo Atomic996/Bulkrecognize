@@ -1,5 +1,6 @@
 
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import html2canvas from 'html2canvas';
 import { Candidate, VoteValue } from './types.ts';
 import { MOCK_CANDIDATES, MAX_VOTES_PER_USER } from './constants.ts';
 import CandidateCard from './components/CandidateCard.tsx';

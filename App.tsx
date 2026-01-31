@@ -161,7 +161,7 @@ const App: React.FC = () => {
   const shareToX = () => {
     if (!activeNode) return;
     const score = activeNode.trustScore || 0;
-    const text = `Verified Node established on @BulkProtocol. ⚛️\n\nIdentity: ${activeNode.name}\nTrust Weight: ${score} points\nShard Level: ALPHA\n\nMap the graph: https://bulk-protocol.io\n\n#BulkProtocol #Web3 #SocialID`;
+    const text = `Verified Node established on @bulktrade \n\nIdentity: ${activeNode.name}\nTrust Weight: ${score} points\nShard Level: ALPHA\n\nMap the graph: https://bulkrecognize-kappa.vercel.app/\n\n#BulkProtocol #Web3 #SocialID`;
     const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank');
   };

@@ -434,7 +434,7 @@ const App: React.FC = () => {
             
             <footer className="pt-12 sm:pt-20 pb-10 flex flex-col items-center gap-4 opacity-20 px-4">
                <StarLogo size="24" glow={false} />
-               <div className="text-[8px] font-black uppercase tracking-[1em] text-center">Protocol_v8.5_Registry</div>
+               <div className="text-[8px] font-black uppercase tracking-[1em] text-center">Bulk_v1.5_Registry</div>
             </footer>
           </div>
         )}
@@ -446,7 +446,7 @@ const App: React.FC = () => {
             {/* Standard Advanced Passport Design */}
             <div 
               ref={passportRef} 
-              className="relative aspect-[1/1.5] sm:aspect-[1.6/1] w-full bg-[#050505] rounded-[3rem] sm:rounded-[4.5rem] p-8 sm:p-14 flex flex-col justify-between overflow-hidden shadow-[0_40px_100px_rgba(0,0,0,0.8)] border border-white/10"
+              className="relative aspect-[0.7/1] sm:aspect-[1.6/1] w-full bg-[#050505] rounded-[3rem] sm:rounded-[4.5rem] p-8 sm:p-14 flex flex-col justify-between overflow-hidden shadow-[0_40px_100px_rgba(0,0,0,0.8)] border border-white/10"
             >
               {/* Complex Background Elements */}
               <div className="absolute inset-0 pointer-events-none">
